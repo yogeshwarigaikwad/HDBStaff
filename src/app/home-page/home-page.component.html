@@ -2,7 +2,15 @@
     <div class="topnav">
     <h2>HDB Staff</h2>
     <a class="active" href="#">Home</a>
-    <a class="login" routerLink="admin">Login</a>
+    <!--<a class="login" routerLink="admin">Login</a>-->
+    <div class="dropdown">
+      <button class="dropbtn">Login<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a class="login" routerLink="admin">AdminLogin</a>
+        <a class="login" routerLink="Staff">StaffLogin</a>
+      </div>
+
+    </div>
       <a routerLink="reg" >Register</a>
       
     </div>
